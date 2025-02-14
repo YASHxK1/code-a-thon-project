@@ -1,0 +1,15 @@
+create a text generation LLM specifically for Mental Health Consultant 
+i will be using ipynb notebook
+
+use this dataset from hugging face 
+
+
+
+
+
+we are creating a text generation LLM specifically for Mental Health Consultant  but in the code 
+use this dataset from hugging face 
+api :-
+curl -X GET \
+     -H "Authorization: Bearer $HF_TOKEN" \
+     "https://huggingface.co/api/datasets/zaghloul2012/mental-health-conversations/parquet/default/train"
